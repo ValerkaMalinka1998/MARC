@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <title>Мarico</title>
+
+  <!-- CSS only -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/fontello.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg navbar-light bg-black">
+            <div class="container-fluid">
+              <div class="nav-block-left d-flex align-items-center my-sm-3">
+                <div class="nav__logo">
+                  <img src="./img/favicon.png" alt="logo" class="img-fluid">
+                </div>
+                <h3 class="nav__title px-3">
+                 <a href="/index.html" class="link-reset">Marico</a>
+                </h3>
+              </div>
+              <div class="collapse navbar-collapse nav-block-center" id="navbarSupportedContent">
+                <ul class="navbar__list d-lg-flex mx-auto">
+                  <li class="navbar__item  dropdown">
+                  <a href="#" class="navbar__link dropdown-toggle" role="button" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                   Use Cases
+                  </a>
+                  <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                    <li class="dropdown__item">
+                      <a href="/About.html" class="dropdown__link">About</a>
+                    </li>
+                    <li class="dropdown__item">
+                      <a href="/Pricing.html" class="dropdown__link">Pricing</a>
+                    </li>
+                    <li class="dropdown__item">
+                      <a href="/Blog.html" class="dropdown__link">Blog</a>
+                    </li>
+                  </ul>
+                  </li>
+                    <li class="navbar__item ">
+                    <a href="/About.html" class="navbar__link">
+                      About
+                    </a>
+                  </li>
+                    <li class="navbar__item ">
+                    <a href="/Pricing.html" class="navbar__link">
+                      Pricing
+                    </a>
+                  </li>
+                    <li class="navbar__item ">
+                    <a href="/Blog.html" class="navbar__link">
+                      Blog
+                    </a>
+                  </li>
+                </ul>
+                <div class="nav-block-right mb">
+                  <a href="/Login.html" class="navbar__link">Login</a>
+                  <a href="/SignUp.html" class="btn btn-outline-primary btn-login ms-3">Sign Up</a>
+                </div>
+              </div> 
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="SignUp">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-sm-12 col-md-8 mx-auto text-center">
+          <h2 class="section__title mb-2">Sign up</h2>
+          <p>Fill all field for create an account.</p>
+        </div>
+      </div>
+      <form class="row justify-content-center align-items-center">
+        <div class="mb-3 col-md-5 col-sm-12">
+          <!-- <label for="exampleInputName" class="form-label">Username</label> -->
+          <input type="text" class="form-control input-sign" id="exampleInputName" placeholder="Username" required>
+        </div>
+        <!-- <div class="mb-3 col-md-5 col-sm-12 mt-4">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control input-sign" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address" required>
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div> -->
+        <div class="mb-3 col-md-5 col-sm-12">
+          <!-- <label for="exampleInputPassword1" class="form-label">Password</label> -->
+          <input type="password" class="form-control input-sign" id="exampleInputPassword1" placeholder="Password" required>
+        </div>
+        <div class="col-md-5 col-sm-12 form-check">
+          <!-- <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label> -->
+          <button type="submit" class="btn btn-primary btn-sign">Submit</button>
+        </div>
+      </form>
+      <div class="row mt-5 text-center">
+        <div class="col-sm-12 col-md-8 mx-auto">
+          <h2>Or</h2>
+          <p>Fill all field for create an account.</p>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-sm-12 col-md-3 mx-auto">
+          <a class="btn link__sign mx-auto mt-3">
+            <img src="./img/Facebook.png" class="img-fluid me-2" alt="Facebook">Sign up with Facebook</a>
+        </div>
+        <div class="col-sm-12 col-md-3 mx-auto">
+          <a class="btn link__sign mx-auto mt-3">
+            <img src="./img/G_logo.png" class="img-fluid me-2" alt="Google">Sign up with Google</a>
+        </div>
+        <div class="col-sm-12 col-md-3 mx-auto">
+          <a class="btn link__sign mx-auto mt-3">
+            <img src="./img/Apple_logo.png" class="img-fluid me-2" alt="Apple">Sign up with Apple</a>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-12 text-center">
+          <p>Already have an account? Please Log in.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <footer>
+  <div class="container">
+    <div class="row">
+      <nav class="navbar navbar-expand-md navbar-light bg-black">
+       <div class="col-md-3 col-sm-12">
+          <div class="nav-block-left text-sm-center text-md-start justify-content-sm-center justify-content-md-start">
+            <div class="nav__logo d-flex align-items-center mb-2 justify-content-sm-center justify-content-md-start">
+              <img src="./img/favicon.png" alt="logo" class="img-fluid">
+              <h3 class="nav__title px-3">
+                <a href="/index.html" class="link-reset">Marico</a>
+              </h3>
+            </div>
+              <a href="mailto:info@marico.com" class="footer__mail">info@marico.com</a>
+          </div>
+        </div>
+        <div class="col-9 collapse navbar-collapse justify-content-end">
+          <ul class="navbar__list d-flex">
+            <li class="navbar__item ">
+            <a href="/About.html" class="navbar__link">
+              About
+            </a>
+            </li>
+            <li class="navbar__item ">
+            <a href="/Pricing.html" class="navbar__link">
+              Pricing
+            </a>
+            </li>
+            <li class="navbar__item ">
+            <a href="/Blog.html" class="navbar__link">
+              Blog
+            </a>
+            </li>
+            <li class="navbar__item ">
+            <a href="#" class="navbar__link">
+              Sign in
+            </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  </footer> -->
+
+  <script src="./js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
